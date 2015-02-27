@@ -23,5 +23,9 @@
         "thobbs/phpcassa": "Required to use the Cassandra storage engine",
         "aws/aws-sdk-php": "Required to use the DynamoDB storage engine"
     },
-    "target-dir" : "./vendor/"
+    "extra": {
+        "installer-paths": {
+            "modules/kohana-oauth2-server/vendor": ["vendor/package"]
+        }
+    }
 }
