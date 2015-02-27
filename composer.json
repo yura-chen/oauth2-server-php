@@ -1,5 +1,5 @@
 {
-    "name": "yura-chen/oauth2-server-php",
+    "name": "oauth2-server-php",
     "description":"OAuth2 Server for PHP",
     "keywords":["oauth","oauth2","auth"],
     "type":"library",
@@ -23,7 +23,5 @@
         "thobbs/phpcassa": "Required to use the Cassandra storage engine",
         "aws/aws-sdk-php": "Required to use the DynamoDB storage engine"
     },
-    "config": {
-        "vendor-dir": "vendor"
-    }
+    "target-dir" : "./vendor/"
 }
